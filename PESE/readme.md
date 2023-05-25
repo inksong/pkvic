@@ -1,6 +1,7 @@
 #### Package Entity Search & Extend (PESE)
 
-[![PESE](../Data/figures/PESE.png)]()
+
+<img src="../Data/figures/PESE.png" width="500px" >
 - overview of PESE module
 
 ##### How PESE work?

@@ -1,7 +1,7 @@
 #### PKVIC: software Package Vulnerability Information Calibration
 
 ---
-[![overview](Data/figures/overview.png)]()
+<img src="Data/figures/overview.png" width="600px" >
 
 
 ---

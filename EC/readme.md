@@ -1,6 +1,8 @@
 #### Ecosystem Classifier (EC)
 
-[![EC_p1](../Data/figures/EC_p1.png)]()
+
+<img src="../Data/figures/EC_p1.png" width="500px" >
+
 - overview of EC module
 
 ##### How EC work?
@@ -16,7 +18,7 @@ We use the CPE string and a textual description in the report as the input. The 
 We utilize a recurrent neural network (RNN) to learn and derive the classification. RNN leverages a long short-term memory (LSTM) in the network to capture the inputs' long-term dependencies. Particularly, LSTM uses three gates (input gate, forget gate, and output gate) to store long-term dependencies of textual words. We connect an LSTM with a fully-connected layer, followed by a softmax layer, which outputs the ecosystem category's probability. Here, we train the models for each ecosystem individually. We choose the maximum probability as the output for the vulnerability report.
 
 #### EC module result (random seed)
-[![EC_p2](../Data/figures/EC_p2.png)]()
+<img src="../Data/figures/EC_p2.png" width="500px" >
 ##### Ecosystem gem
 
 - ACC: 0.9826589595375722
